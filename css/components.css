@@ -1,0 +1,133 @@
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.body {
+	min-height: 100vh;
+	height: 100%;
+}
+
+.content {
+	flex-grow: 1;
+	padding: 8px 0px;
+}
+
+.header {
+	padding-bottom: 8px
+}
+
+.header img {
+	padding-right: 8px
+}
+
+.nav a {
+	padding: 0px 4px;
+}
+
+.footer {
+	padding-bottom: 8px
+}
+
+.footer a {
+	padding: 2px;
+}
+
+.cursor {
+	padding: 4px;
+	width: 7px;
+	height: 6px;
+}
+
+/* List */
+.li-important {
+	list-style-image: url("../assets/gif/!.gif");
+}
+
+.li-open {
+	list-style-image: url("../assets/png/mail_open.png");
+}
+
+.li-closed {
+	list-style-image: url("../assets/png/mail_closed.png");
+	text-decoration: line-through;
+}
+
+.li-cursor {
+	list-style-image: url("../assets/gif/cursor.gif");
+}
+
+/* Card */
+.card {
+	display: grid;
+	grid-template-columns: 7px 100% 7px;
+	grid-gap: 0px;
+	grid-template-rows: 3px 100% 3px;
+	margin-right: 14px;
+}
+
+.card-body {
+	padding-top: 16px
+}
+
+.card-button {
+	color: white;
+	text-decoration: none;
+}
+
+.card-button:hover {
+	text-decoration: underline;
+}
+
+.card-tl {
+	background-image: url(../assets/png/card_corner_tl.png);
+	background-position: right;
+}
+
+.card-t {
+	background-image: url(../assets/png/card_border_t.png);
+}
+
+.card-tr {
+	background-image: url(../assets/png/card_corner_tr.png);
+	background-position: left;
+}
+
+.card-l {
+	background-image: url(../assets/png/card_border_l.png);
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #204868;
+	padding: 0px 8px;
+}
+
+.card-r {
+	background-image: url(../assets/png/card_border_l.png);
+}
+
+.card-bl {
+	background-image: url(../assets/png/card_corner_bl.png);
+	background-position: right;
+}
+
+.card-b {
+	background-image: url(../assets/png/card_border_b.png);
+}
+
+.card-br {
+	background-image: url(../assets/png/card_corner_br.png);
+	background-position: left;
+}

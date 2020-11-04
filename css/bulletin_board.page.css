@@ -1,0 +1,27 @@
+#board {
+	align-items: flex-start;
+	padding: 0px;
+	padding-left: 16px;
+	padding-right: 16px
+}
+
+.board-header {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.list {
+	padding-top: 8px;
+	padding-bottom: 8px
+}
+
+.list-button {
+	cursor: pointer;
+}
+
+.list-collapse {
+	height: 0;
+	overflow: hidden;
+}

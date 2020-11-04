@@ -1,0 +1,16 @@
+#main {
+	padding-top: 16px
+}
+
+#banners a {
+	padding: 8px;
+}
+
+.links-main {
+	align-items: flex-start;
+	padding: 4px 16px;
+}
+
+.pt8 {
+	list-style-type: square;	
+}

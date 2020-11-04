@@ -1,0 +1,72 @@
+@font-face {
+	font-family: "QuinqueFive";
+	src: url("../assets/fonts/QuinqueFive.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "EnterCommand";
+	src: url("../assets/fonts/EnterCommand.ttf") format("truetype");
+}
+
+* {
+	margin: 0;
+}
+
+html {
+	-webkit-font-smoothing: none;
+	-moz-osx-font-smoothing: none;
+	font-smooth: never;
+	box-sizing: border-box;
+	font-family: "EnterCommand";
+	color: white;
+	font-size: 24px
+}
+
+body {
+	 background-image: url("../assets/png/bg.png")
+}
+
+h1 {
+	font-size: 5.61em;
+	letter-spacing: 4px
+}
+
+h2 {
+	font-size: 4.209em;
+	letter-spacing: 4px;
+}
+
+h3 {
+	font-size: 3.157em;
+	letter-spacing: 4px;
+}
+
+h4 {
+	font-size: 2.369em;
+	letter-spacing: 4px;
+}
+
+h5 {
+	font-size: 1.777em;
+	letter-spacing: 2px;
+}
+
+h6 {
+	font-size: 1.333em;
+	letter-spacing: 2px;
+}
+
+p {
+	font-size: 1em;
+	letter-spacing: 0.5px;
+}
+
+ul {
+	padding-inline-start: 32px;
+}
+
+a {
+	color: white;
+	font-size: 1em;
+	letter-spacing: 0.5px;
+}
