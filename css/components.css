@@ -65,6 +65,11 @@
 	list-style-image: url("../assets/gif/cursor.gif");
 }
 
+.li-disabled {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.34);
+}
+
 /* Card */
 .card {
 	display: grid;
@@ -87,21 +92,21 @@
 	text-decoration: underline;
 }
 
-.card-tl {
+.card-topLeft {
 	background-image: url(../assets/png/card_corner_tl.png);
 	background-position: right;
 }
 
-.card-t {
+.card-top {
 	background-image: url(../assets/png/card_border_t.png);
 }
 
-.card-tr {
+.card-topRight {
 	background-image: url(../assets/png/card_corner_tr.png);
 	background-position: left;
 }
 
-.card-l {
+.card-left {
 	background-image: url(../assets/png/card_border_l.png);
 }
 
@@ -114,20 +119,20 @@
 	padding: 0px 8px;
 }
 
-.card-r {
+.card-right {
 	background-image: url(../assets/png/card_border_l.png);
 }
 
-.card-bl {
+.card-bottomLeft {
 	background-image: url(../assets/png/card_corner_bl.png);
 	background-position: right;
 }
 
-.card-b {
+.card-bottom {
 	background-image: url(../assets/png/card_border_b.png);
 }
 
-.card-br {
+.card-bottomRight {
 	background-image: url(../assets/png/card_corner_br.png);
 	background-position: left;
 }

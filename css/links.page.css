@@ -2,15 +2,18 @@
 	padding-top: 16px
 }
 
-#banners a {
-	padding: 8px;
+#links {
+  padding-bottom: 12px
 }
 
-.links-main {
-	align-items: flex-start;
-	padding: 4px 16px;
+#friends {
+  padding-top: 24px
 }
 
-.pt8 {
-	list-style-type: square;	
+#friends-container {
+  padding-top: 8px
+}
+
+#friends-container a {
+  margin: 0px 4px
 }

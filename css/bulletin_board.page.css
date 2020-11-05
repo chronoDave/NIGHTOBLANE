@@ -18,10 +18,10 @@
 }
 
 .list-button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .list-collapse {
-	height: 0;
+  height: 0;
 	overflow: hidden;
 }
