@@ -29,8 +29,19 @@
 	padding-right: 8px
 }
 
+@media (max-width: 640px) {
+  .nav {
+    flex-wrap: wrap;
+  }
+}
+
 .nav a {
 	padding: 0px 4px;
+}
+@media (max-width: 640px) {
+  .nav a {
+    padding: 4px;
+  }
 }
 
 .footer {
@@ -44,7 +55,7 @@
 .cursor {
 	padding: 4px;
 	width: 7px;
-	height: 6px;
+  height: 6px;
 }
 
 /* List */
@@ -68,6 +79,13 @@
 .li-disabled {
   list-style: none;
   color: rgba(255, 255, 255, 0.34);
+}
+
+/* Hidden */
+@media (max-width: 640px) {
+  .hidden-mobile {
+    display: none;
+  }
 }
 
 /* Card */

@@ -1,0 +1,26 @@
+#index {
+	padding: 12px 16px;
+	align-items: flex-start;
+}
+@media (max-width: 640px) {
+  #index {
+    align-items: center;
+  }
+}
+
+.card-index {
+	padding-left: 8px;
+	height: 74px;
+	width: 360px
+}
+
+.flex-normal {
+	align-items: normal
+}
+@media (max-width: 640px) {
+  .flex-normal {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+}

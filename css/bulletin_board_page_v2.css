@@ -17,8 +17,16 @@
 	padding-bottom: 8px
 }
 
+.list-cursor {
+  flex-shrink: 0;
+}
+
 .list-button {
   cursor: pointer;
+}
+
+.list-button span {
+  flex-shrink: 0;
 }
 
 .list-collapse {
